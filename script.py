@@ -70,6 +70,7 @@ def script_function(i,num):
         row.user = userName;
         row.content = content_data;
         row.time = datetime;
+        row.label = label;
         json_data.push(row);
     }
     exportRaw(json_data, 'cdk.json');
